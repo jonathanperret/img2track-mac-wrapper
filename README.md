@@ -26,6 +26,8 @@ This repository builds a dynamic library that is meant to be injected into `img2
 
 Now return to the folder containing your copy of `img2track.app` and double-click it: it should open the app and the app should be able to detect and use the cable.
 
+![](images/img2track-working.png)
+
 If it works, you can then drag the modified `img2track.app` to `/Applications` to overwrite the original.
 
 ## Building and testing
