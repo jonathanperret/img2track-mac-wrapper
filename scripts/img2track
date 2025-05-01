@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# get script directory
+scriptdir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+export DYLD_INSERT_LIBRARIES="$scriptdir/libiokitrewrite.dylib"
+
+"$scriptdir/img2track.real" "$@"
